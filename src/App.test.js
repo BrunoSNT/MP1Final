@@ -1,9 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './Components/App';
+import Square from './Components/Square'
+import Board from './Components/Board'
+import Game from './Components/Game'
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+it(' - app.', () => {
+  <App />
 });
+
+it(' - square component.', () => {
+  <Square />
+});
+
+it(' - board component.', () => {
+  <Board />
+});
+
+it(' - game component.', () => {
+  <Game />
+});
+
+it(' - handleClick', () => {  
+});
+
