@@ -4,6 +4,7 @@ import App from './Components/App';
 import Square from './Components/Square'
 import Board from './Components/Board'
 import Game from './Components/Game'
+import Menu from './Components/Menu'
 
 it(' - app.', () => {
   <App />
@@ -21,6 +22,7 @@ it(' - game component.', () => {
   <Game />
 });
 
-it(' - handleClick', () => {  
+it(' - menu buttons', () => {  
+  <Menu />
 });
 
